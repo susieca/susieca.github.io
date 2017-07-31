@@ -1,2 +1,2 @@
 # susieca.github.io
-test
+this is a self introduction
