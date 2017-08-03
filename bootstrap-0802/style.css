@@ -1,0 +1,64 @@
+    #div1 {
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        font-family: sans-serif;
+        border-style: 3px sold #333333;
+        background-color: #fafafa;
+        background-image: url("黑白背景.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 10% 0;
+    }
+    
+    #div2 {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        border-style: 3px sold #333333;
+        background-color: #fafafa;
+        background-image: url("div2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 10% 0;
+    }
+    
+    span {
+        display: block;
+    }
+    
+    body {
+        margin: 10px;
+    }
+    
+    #name {
+        margin-top: 50px;
+        font-size: 1.3em;
+    }
+    
+    #ename {
+        font-family: inherit;
+    }
+    
+    #who {
+        border: 5px solid #ba3946;
+        padding: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        /*框的宽度*/
+        margin: 0 auto;
+        /*居中*/
+        margin-top: 50px;
+        color: #ba3946;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+        font-size: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    #tag {
+        margin-top: 70px;
+        font-size: 30px;
+    }
