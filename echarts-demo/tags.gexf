@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+	<graphs>
+		<graph defaultedgetype="directed">
+			<attributes class="node">
+				<attribute id="0" title="description" type="string"></attribute>
+				<attribute id="1" title="count" type="integer"></attribute>
+				<attribute id="2" title="modularity_class" type="integer"></attribute>
+			</attributes>
+			<attributes class="edge">
+				<attribute id="0" title="relation_type" type="string"></attribute>
+				<attribute id="1" title="value" type="integer"></attribute>
+			</attributes>
+			<nodes>
+				<node id="Myriel" label="Myriel">
+					<attvalues>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Myriel" label="Myriel">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Napoleon" label="Napoleon">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mlle.Baptistine" label="Mlle.Baptistine">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mme.Magloire" label="Mme.Magloire">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="CountessdeLo" label="CountessdeLo">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Geborand" label="Geborand">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Champtercier" label="Champtercier">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Cravatte" label="Cravatte">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Count" label="Count">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="OldMan" label="OldMan">
+					<attvalues>
+						<attvalue for="2" value="1"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="50" g="130" r="130"></viz:color>
+				</node>
+				<node id="Labarre" label="Labarre">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Valjean" label="Valjean">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Marguerite" label="Marguerite">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mme.deR" label="Mme.deR">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Isabeau" label="Isabeau">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Gervais" label="Gervais">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Tholomyes" label="Tholomyes">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Listolier" label="Listolier">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Fameuil" label="Fameuil">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Blacheville" label="Blacheville">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Favourite" label="Favourite">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Dahlia" label="Dahlia">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Zephine" label="Zephine">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Fantine" label="Fantine">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mme.Thenardier" label="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Thenardier" label="Thenardier">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Cosette" label="Cosette">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Javert" label="Javert">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Fauchelevent" label="Fauchelevent">
+					<attvalues>
+						<attvalue for="2" value="0"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="0" g="130" r="130"></viz:color>
+				</node>
+				<node id="Bamatabois" label="Bamatabois">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Perpetue" label="Perpetue">
+					<attvalues>
+						<attvalue for="2" value="3"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="150" g="130" r="130"></viz:color>
+				</node>
+				<node id="Simplice" label="Simplice">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Scaufflaire" label="Scaufflaire">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Woman1" label="Woman1">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Judge" label="Judge">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Champmathieu" label="Champmathieu">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Brevet" label="Brevet">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Chenildieu" label="Chenildieu">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Cochepaille" label="Cochepaille">
+					<attvalues>
+						<attvalue for="2" value="2"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="100" g="130" r="130"></viz:color>
+				</node>
+				<node id="Pontmercy" label="Pontmercy">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Boulatruelle" label="Boulatruelle">
+					<attvalues>
+						<attvalue for="2" value="6"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="300" g="130" r="130"></viz:color>
+				</node>
+				<node id="Eponine" label="Eponine">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Anzelma" label="Anzelma">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Woman2" label="Woman2">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="MotherInnocent" label="MotherInnocent">
+					<attvalues>
+						<attvalue for="2" value="0"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="0" g="130" r="130"></viz:color>
+				</node>
+				<node id="Gribier" label="Gribier">
+					<attvalues>
+						<attvalue for="2" value="0"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="0" g="130" r="130"></viz:color>
+				</node>
+				<node id="Jondrette" label="Jondrette">
+					<attvalues>
+						<attvalue for="2" value="7"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="350" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mme.Burgon" label="Mme.Burgon">
+					<attvalues>
+						<attvalue for="2" value="7"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="350" g="130" r="130"></viz:color>
+				</node>
+				<node id="Gavroche" label="Gavroche">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Gillenormand" label="Gillenormand">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Magnon" label="Magnon">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mlle.Gillenormand" label="Mlle.Gillenormand">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mme.Pontmercy" label="Mme.Pontmercy">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mlle.Vaubois" label="Mlle.Vaubois">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Lt.Gillenormand" label="Lt.Gillenormand">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Marius" label="Marius">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="BaronessT" label="BaronessT">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mabeuf" label="Mabeuf">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Enjolras" label="Enjolras">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Combeferre" label="Combeferre">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Prouvaire" label="Prouvaire">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Feuilly" label="Feuilly">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Courfeyrac" label="Courfeyrac">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Bahorel" label="Bahorel">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Bossuet" label="Bossuet">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Joly" label="Joly">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="Grantaire" label="Grantaire">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+				<node id="MotherPlutarch" label="MotherPlutarch">
+					<attvalues>
+						<attvalue for="2" value="9"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="450" g="130" r="130"></viz:color>
+				</node>
+				<node id="Gueulemer" label="Gueulemer">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Babet" label="Babet">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Claquesous" label="Claquesous">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Montparnasse" label="Montparnasse">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Toussaint" label="Toussaint">
+					<attvalues>
+						<attvalue for="2" value="5"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="250" g="130" r="130"></viz:color>
+				</node>
+				<node id="Child1" label="Child1">
+					<attvalues>
+						<attvalue for="2" value="10"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="500" g="130" r="130"></viz:color>
+				</node>
+				<node id="Child2" label="Child2">
+					<attvalues>
+						<attvalue for="2" value="10"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="500" g="130" r="130"></viz:color>
+				</node>
+				<node id="Brujon" label="Brujon">
+					<attvalues>
+						<attvalue for="2" value="4"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="200" g="130" r="130"></viz:color>
+				</node>
+				<node id="Mme.Hucheloup" label="Mme.Hucheloup">
+					<attvalues>
+						<attvalue for="2" value="8"></attvalue>
+					</attvalues>
+					<viz:size value="10.0"></viz:size>
+					<viz:color b="400" g="130" r="130"></viz:color>
+				</node>
+			</nodes>
+			<edges>
+				<edge id="0" source="Napoleon" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="1" source="Mlle.Baptistine" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="8"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="2" source="Mme.Magloire" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="10"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="3" source="Mme.Magloire" target="Mlle.Baptistine">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="4" source="CountessdeLo" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="5" source="Geborand" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="6" source="Champtercier" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="7" source="Cravatte" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="8" source="Count" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="9" source="OldMan" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="10" source="Valjean" target="Labarre">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="11" source="Valjean" target="Mme.Magloire">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="12" source="Valjean" target="Mlle.Baptistine">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="13" source="Valjean" target="Myriel">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="14" source="Marguerite" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="15" source="Mme.deR" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="16" source="Isabeau" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="17" source="Gervais" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="18" source="Listolier" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="19" source="Fameuil" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="20" source="Fameuil" target="Listolier">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="21" source="Blacheville" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="22" source="Blacheville" target="Listolier">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="23" source="Blacheville" target="Fameuil">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="24" source="Favourite" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="25" source="Favourite" target="Listolier">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="26" source="Favourite" target="Fameuil">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="27" source="Favourite" target="Blacheville">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="28" source="Dahlia" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="29" source="Dahlia" target="Listolier">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="30" source="Dahlia" target="Fameuil">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="31" source="Dahlia" target="Blacheville">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="32" source="Dahlia" target="Favourite">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="33" source="Zephine" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="34" source="Zephine" target="Listolier">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="35" source="Zephine" target="Fameuil">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="36" source="Zephine" target="Blacheville">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="37" source="Zephine" target="Favourite">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="38" source="Zephine" target="Dahlia">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="39" source="Fantine" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="40" source="Fantine" target="Listolier">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="41" source="Fantine" target="Fameuil">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="42" source="Fantine" target="Blacheville">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="43" source="Fantine" target="Favourite">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="44" source="Fantine" target="Dahlia">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="45" source="Fantine" target="Zephine">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="46" source="Fantine" target="Marguerite">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="47" source="Fantine" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="9"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="48" source="Mme.Thenardier" target="Fantine">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="49" source="Mme.Thenardier" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="7"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="50" source="Thenardier" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="13"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="51" source="Thenardier" target="Fantine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="52" source="Thenardier" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="12"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="53" source="Cosette" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="54" source="Cosette" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="31"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="55" source="Cosette" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="56" source="Cosette" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="57" source="Javert" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="17"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="58" source="Javert" target="Fantine">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="59" source="Javert" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="60" source="Javert" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="61" source="Javert" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="62" source="Fauchelevent" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="8"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="63" source="Fauchelevent" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="64" source="Bamatabois" target="Fantine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="65" source="Bamatabois" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="66" source="Bamatabois" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="67" source="Perpetue" target="Fantine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="68" source="Simplice" target="Perpetue">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="69" source="Simplice" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="70" source="Simplice" target="Fantine">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="71" source="Simplice" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="72" source="Scaufflaire" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="73" source="Woman1" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="74" source="Woman1" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="75" source="Judge" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="76" source="Judge" target="Bamatabois">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="77" source="Champmathieu" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="78" source="Champmathieu" target="Judge">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="79" source="Champmathieu" target="Bamatabois">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="80" source="Brevet" target="Judge">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="81" source="Brevet" target="Champmathieu">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="82" source="Brevet" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="83" source="Brevet" target="Bamatabois">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="84" source="Chenildieu" target="Judge">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="85" source="Chenildieu" target="Champmathieu">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="86" source="Chenildieu" target="Brevet">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="87" source="Chenildieu" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="88" source="Chenildieu" target="Bamatabois">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="89" source="Cochepaille" target="Judge">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="90" source="Cochepaille" target="Champmathieu">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="91" source="Cochepaille" target="Brevet">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="92" source="Cochepaille" target="Chenildieu">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="93" source="Cochepaille" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="94" source="Cochepaille" target="Bamatabois">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="95" source="Pontmercy" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="96" source="Boulatruelle" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="97" source="Eponine" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="98" source="Eponine" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="99" source="Anzelma" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="100" source="Anzelma" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="101" source="Anzelma" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="102" source="Woman2" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="103" source="Woman2" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="104" source="Woman2" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="105" source="MotherInnocent" target="Fauchelevent">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="106" source="MotherInnocent" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="107" source="Gribier" target="Fauchelevent">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="108" source="Mme.Burgon" target="Jondrette">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="109" source="Gavroche" target="Mme.Burgon">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="110" source="Gavroche" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="111" source="Gavroche" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="112" source="Gavroche" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="113" source="Gillenormand" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="114" source="Gillenormand" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="115" source="Magnon" target="Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="116" source="Magnon" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="117" source="Mlle.Gillenormand" target="Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="9"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="118" source="Mlle.Gillenormand" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="119" source="Mlle.Gillenormand" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="120" source="Mme.Pontmercy" target="Mlle.Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="121" source="Mme.Pontmercy" target="Pontmercy">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="122" source="Mlle.Vaubois" target="Mlle.Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="123" source="Lt.Gillenormand" target="Mlle.Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="124" source="Lt.Gillenormand" target="Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="125" source="Lt.Gillenormand" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="126" source="Marius" target="Mlle.Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="127" source="Marius" target="Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="12"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="128" source="Marius" target="Pontmercy">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="129" source="Marius" target="Lt.Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="130" source="Marius" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="21"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="131" source="Marius" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="19"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="132" source="Marius" target="Tholomyes">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="133" source="Marius" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="134" source="Marius" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="135" source="Marius" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="136" source="BaronessT" target="Gillenormand">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="137" source="BaronessT" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="138" source="Mabeuf" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="139" source="Mabeuf" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="140" source="Mabeuf" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="141" source="Enjolras" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="7"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="142" source="Enjolras" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="7"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="143" source="Enjolras" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="144" source="Enjolras" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="145" source="Enjolras" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="146" source="Combeferre" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="15"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="147" source="Combeferre" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="148" source="Combeferre" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="149" source="Combeferre" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="150" source="Prouvaire" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="151" source="Prouvaire" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="152" source="Prouvaire" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="153" source="Feuilly" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="154" source="Feuilly" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="155" source="Feuilly" target="Prouvaire">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="156" source="Feuilly" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="157" source="Feuilly" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="158" source="Feuilly" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="159" source="Courfeyrac" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="9"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="160" source="Courfeyrac" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="17"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="161" source="Courfeyrac" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="13"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="162" source="Courfeyrac" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="7"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="163" source="Courfeyrac" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="164" source="Courfeyrac" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="165" source="Courfeyrac" target="Feuilly">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="166" source="Courfeyrac" target="Prouvaire">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="167" source="Bahorel" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="168" source="Bahorel" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="169" source="Bahorel" target="Courfeyrac">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="170" source="Bahorel" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="171" source="Bahorel" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="172" source="Bahorel" target="Feuilly">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="173" source="Bahorel" target="Prouvaire">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="174" source="Bahorel" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="175" source="Bossuet" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="176" source="Bossuet" target="Courfeyrac">
+					<attvalues>
+						<attvalue for="1" value="12"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="177" source="Bossuet" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="178" source="Bossuet" target="Bahorel">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="179" source="Bossuet" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="10"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="180" source="Bossuet" target="Feuilly">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="181" source="Bossuet" target="Prouvaire">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="182" source="Bossuet" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="9"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="183" source="Bossuet" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="184" source="Bossuet" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="185" source="Joly" target="Bahorel">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="186" source="Joly" target="Bossuet">
+					<attvalues>
+						<attvalue for="1" value="7"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="187" source="Joly" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="188" source="Joly" target="Courfeyrac">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="189" source="Joly" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="190" source="Joly" target="Feuilly">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="191" source="Joly" target="Prouvaire">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="192" source="Joly" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="193" source="Joly" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="194" source="Joly" target="Marius">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="195" source="Grantaire" target="Bossuet">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="196" source="Grantaire" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="197" source="Grantaire" target="Combeferre">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="198" source="Grantaire" target="Courfeyrac">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="199" source="Grantaire" target="Joly">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="200" source="Grantaire" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="201" source="Grantaire" target="Bahorel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="202" source="Grantaire" target="Feuilly">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="203" source="Grantaire" target="Prouvaire">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="204" source="MotherPlutarch" target="Mabeuf">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="205" source="Gueulemer" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="5"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="206" source="Gueulemer" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="207" source="Gueulemer" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="208" source="Gueulemer" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="209" source="Gueulemer" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="210" source="Gueulemer" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="211" source="Babet" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="212" source="Babet" target="Gueulemer">
+					<attvalues>
+						<attvalue for="1" value="6"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="213" source="Babet" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="214" source="Babet" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="215" source="Babet" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="216" source="Babet" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="217" source="Babet" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="218" source="Claquesous" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="219" source="Claquesous" target="Babet">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="220" source="Claquesous" target="Gueulemer">
+					<attvalues>
+						<attvalue for="1" value="4"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="221" source="Claquesous" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="222" source="Claquesous" target="Mme.Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="223" source="Claquesous" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="224" source="Claquesous" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="225" source="Claquesous" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="226" source="Montparnasse" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="227" source="Montparnasse" target="Babet">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="228" source="Montparnasse" target="Gueulemer">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="229" source="Montparnasse" target="Claquesous">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="230" source="Montparnasse" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="231" source="Montparnasse" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="232" source="Montparnasse" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="233" source="Montparnasse" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="234" source="Toussaint" target="Cosette">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="235" source="Toussaint" target="Javert">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="236" source="Toussaint" target="Valjean">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="237" source="Child1" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="238" source="Child2" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="2"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="239" source="Child2" target="Child1">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="240" source="Brujon" target="Babet">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="241" source="Brujon" target="Gueulemer">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="242" source="Brujon" target="Thenardier">
+					<attvalues>
+						<attvalue for="1" value="3"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="243" source="Brujon" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="244" source="Brujon" target="Eponine">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="245" source="Brujon" target="Claquesous">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="246" source="Brujon" target="Montparnasse">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="247" source="Mme.Hucheloup" target="Bossuet">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="248" source="Mme.Hucheloup" target="Joly">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="249" source="Mme.Hucheloup" target="Grantaire">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="250" source="Mme.Hucheloup" target="Bahorel">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="251" source="Mme.Hucheloup" target="Courfeyrac">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="252" source="Mme.Hucheloup" target="Gavroche">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+				<edge id="253" source="Mme.Hucheloup" target="Enjolras">
+					<attvalues>
+						<attvalue for="1" value="1"></attvalue>
+					</attvalues>
+				</edge>
+			</edges>
+		</graph>
+	</graphs>
+</gexf>

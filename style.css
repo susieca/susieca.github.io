@@ -32,10 +32,6 @@
             display: block;
         }
         
-        body {
-            margin: 10px;
-        }
-        
         #name {
             margin-top: 50px;
             font-size: 1.3em;

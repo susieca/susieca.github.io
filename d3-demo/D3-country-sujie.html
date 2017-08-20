@@ -1,0 +1,125 @@
+<html>
+
+<head>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+</head>
+
+<body>
+    <div id="chart">
+        <svg width=500 height=500></svg>
+    </div>
+    <script>
+        var svg = d3.select('#chart svg')
+            // svg
+            //     .append('circle')
+            //     .attr('cx', 50)
+            //     .attr('cy', 100)
+            //     .attr('r', 20)
+        var gdpScale = d3.scaleLinear()
+            .domain([0, 600000])
+            .range([500, 0]); //浏览器Y轴是反过来的
+
+        var lifeScale = d3.scaleLinear()
+            .domain([0, 100])
+            .range([0, 400]);
+
+        function updateChart(data) { //updateChart是我们自己定义的一个函数
+            var circles =
+                svg
+                .selectAll("circle")
+                .data(data, function(d, i) { //d是说datalist中的一列数据，i表示d是第几列数据
+                    return d["country"] //告诉d3以country为key function
+                })
+
+            circles
+                .enter() //新的数据点
+                .append("circle")
+                .merge(circles) //更新的数据点
+                .transition() //转换
+                .attr("r", 10)
+                .attr("cx", function(d, i) {
+                    return lifeScale(d["life"])
+                })
+                .attr("cy", function(d, i) {
+                    return gdpScale(d["GDP"])
+                })
+
+            circles
+                .exit()
+                .transition() //数据更新后转换的动作
+                .style("fill", "rgba(120,200,20,4)") //设定填充的颜色、透明度等
+                .on("end", function() {
+                    d3.select(this).remove()
+                }) //on监听的是transition的过程，当这个过程end的时候，就会执行下列function
+
+            var texts =
+                svg.selectAll("text.label") //只选中球上的文字 与坐标轴上的文字区分开来
+                .data(data, function(d, i) {
+                    return d["country"] //key-function
+                })
+
+            texts
+                .enter()
+                .append("text") //texts此时是一个召回了所有"text.label"的集合，需要用"text"来填充，而填充的text则用下面的代码来定义
+                .classed("label", true)
+                .merge(texts) //merge要放在text前面，因为一旦执行了text的返回的话机器就不会merge了
+                .text(function(d, i) {
+                    return d["country"] + d["GDP"]
+                })
+                .attr("x", function(d, i) {
+                    return lifeScale(d["life"])
+                })
+                .attr("y", function(d, i) {
+                    return gdpScale(d["GDP"])
+
+                })
+                .transition()
+            texts
+                .exit()
+                .transition()
+                .style('fill', 'rgba(100,80,60,0)')
+                .on('end', function() {
+                    d3.select(this).remove()
+                })
+        }
+
+        d3.json("data.json", function(data) {
+            var yearIndex = 0
+            d3.interval(function() {
+                    updateChart(data[yearIndex])
+                    yearIndex = (yearIndex + 1) % data.length //%是取余的意思 这边循环结果是0，1，2；0，1，2....
+                }, 2000) //interval是d3设置间隔的一种函数
+        })
+
+        var gdpAxis = d3.axisLeft(gdpScale)
+            //gdpAxis(svg) 
+        svg
+            .append('g') //’g‘element is used to group SVG shapes together 不用这个的话X和Y轴有一个会被复写
+            .attr("transform", "translate(50,0)")
+            .call(gdpAxis)
+
+        var lifeAxis = d3.axisBottom(lifeScale)
+            //lifeAxis(svg) 
+        svg
+            .append('g')
+            .attr("transform", "translate(0,400)")
+            .call(lifeAxis)
+            // svg.on("click", function() {
+            //     svg.append("circle")
+            //         .attr('r', 30)
+            //         .attr("cx", d3.event.clientX)
+            //         .attr("cy", d3.event.clientY)
+            // })
+
+        //     updateChart(data)
+        //         //updateChart(data2)
+        //     setTimeout(function() {
+        //             updateChart(data)
+        //         }, 3000) //setTimeout是JavaScript里面的功能
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .chart {
+            margin-top: 1em;
+            border: 1px dashed lightgrey;
+            width: 500px;
+            height: 400px;
+        }
+        
+        .chart svg {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Gansu-earthquake Map</h1>
+                <div class=chart>
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //新建一个画布
+        var svg = d3.select('.chart svg')
+
+
+        //设定投影函数
+        var projection = d3.geoMercator()
+            .center([
+                106.029052734375,
+                30.741835717889792
+            ])
+            .scale(1000)
+            .translate([500 / 2, 400 / 2])
+
+
+        //设定path绘图函数
+        var path = d3
+            .geoPath(projection)
+
+        //导入data
+        //地图数据
+        d3.json("si_chuan_geo.json", function(sichuan) {
+            console.log(sichuan.features)
+            svg
+                .selectAll("path")
+                .data(sichuan.features)
+                .enter()
+                .append("path")
+                .attr("d", path)
+                .style("stroke", "balck")
+                .style("fill", "grey")
+        })
+
+
+        //年份数据和地震数据
+        var yearText =
+            svg
+            .append('text')
+            .attr('x', '0.5em')
+            .attr('y', '1em')
+            .text('Year:')
+        d3.json("earthquake-by-year.json", function(res) {
+            earthquakeYear = res; //数据导入了earthquake这个变量里
+        })
+
+        var yearIndex = 0;
+        d3.interval(function() {
+                yearText.text('Year:' + earthquakeYear[yearIndex]['year'])
+                svg
+                    .selectAll('circle')
+                    .data(earthquakeYear[yearIndex]['data'])
+                    .enter()
+                    .append('circle')
+                    .attr('cx', function(d) {
+                        return projection(d.coordinates)[0]
+                    })
+                    .attr('cy', function(d) {
+                        return projection(d.coordinates)[1]
+                    })
+                    .attr('fill', 'rgba(200, 100, 150, 0.3)')
+                    .attr('r', 5)
+                    .transition()
+                    .duration(2000)
+                    .attr('r', function(d, i) {
+                        return Math.pow((d.mag - 4), 2.5) * 5
+                    })
+                    .attr('fill', 'rgba(200, 100, 150, 0.05)')
+                    .on('end', function() {
+                        d3.select(this).remove()
+                    }) //图的逻辑
+
+                yearIndex = (yearIndex + 1) % earthquakeYear.length;
+            }, 200) //年份的逻辑
+    </script>
+</body>
+
+</html>

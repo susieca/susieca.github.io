@@ -1,0 +1,5 @@
+[
+    [{ "country": "A", "GDP": 100000, "life": 50 }, { "country": "B", "GDP": 300000, "life": 30 }, { "country": "C", "GDP": 200000, "life": 60 }],
+    [{ "country": "A", "GDP": 200000, "life": 20 }, { "country": "B", "GDP": 500000, "life": 70 }, { "country": "C", "GDP": 150000, "life": 90 }],
+    [{ "country": "A", "GDP": 150000, "life": 60 }, { "country": "B", "GDP": 100000, "life": 10 }, { "country": "D", "GDP": 300000, "life": 40 }]
+]
