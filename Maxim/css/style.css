@@ -633,7 +633,8 @@ section.spacer blockquote cite {
 /* === section works === */
 
 #works h4 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
 
 #portfolio {
