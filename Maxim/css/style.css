@@ -611,10 +611,12 @@ section.spacer.bg2 {
     width: 100%;
     height: auto;
     margin: 0;
+    color: #3c3c3c
 }
 
 section.spacer.bg3 {
-    background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+    /* background: url(end.jpg) 50% 0 no-repeat fixed; */
+    background-image: url("end.jpg");
     width: 100%;
     height: auto;
     margin: 0;
