@@ -58,7 +58,7 @@ option3 = {
             ],
             itemStyle: {
                 normal: {
-                    color: "#cce8f0"
+                    color: "#0d47a1"
                 }
             }
         },
@@ -71,7 +71,7 @@ option3 = {
             }, 133.2],
             itemStyle: {
                 normal: {
-                    color: "#048cb7"
+                    color: "lightblue"
                 }
             }
         },
