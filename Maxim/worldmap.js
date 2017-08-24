@@ -3,7 +3,7 @@ $.getJSON("data-incidence-2012.json", function(res) {
     console.log(res)
     option = {
         title: {
-            text: "Incident cases and deaths of cancer (ASR) worldwide",
+            text: "Incidence and Mortality of cancer (ASR)",
             subtext: 'both sexes combined, number per 10,000',
             left: 'center',
             top: 'top'
@@ -17,19 +17,7 @@ $.getJSON("data-incidence-2012.json", function(res) {
                 return params.seriesName + '<br/>' + params.name + ' : ' + value;
             }
         },
-        toolbox: {
-            show: true,
-            orient: 'vertical',
-            left: 'right',
-            top: 'center',
-            feature: {
-                dataView: {
-                    readOnly: false
-                },
-                restore: {},
-                saveAsImage: {}
-            }
-        },
+
         visualMap: {
             min: 50,
             max: 400,
@@ -37,7 +25,7 @@ $.getJSON("data-incidence-2012.json", function(res) {
             realtime: false,
             calculable: true,
             inRange: {
-                color: ['lightyellow', "yellow", 'orange']
+                color: ['#ffebee', "#e57373", '#b71c1c ']
             }
         },
         series: [{
@@ -97,7 +85,7 @@ $.getJSON("data-mortality-2012.json", function(res) {
             realtime: false,
             calculable: true,
             inRange: {
-                color: ["#bbdefb", "#1976d2", '#000464']
+                color: ["#e3f2fd", "#0d47a1", '#0d47a1']
             }
         },
         series: [{

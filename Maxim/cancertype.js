@@ -33,7 +33,7 @@
 
  option7 = {
      baseOption: {
-         backgroundColor: '#fff',
+         backgroundColor: '#f2f2f2',
          timeline: {
              show: true,
              axisType: 'category',
@@ -87,19 +87,7 @@
              }
          },
 
-         toolbox: {
-             right: 20,
-             feature: {
-                 saveAsImage: {},
-                 restore: {},
-                 dataView: {},
-                 dataZoom: {},
-                 magicType: {
-                     type: ['line', 'bar']
-                 },
-                 // brush: {},
-             }
-         },
+
 
          grid: [{
              show: false,

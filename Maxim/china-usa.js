@@ -13,15 +13,10 @@ option4 = {
     grid: {
         right: '20%'
     },
-    toolbox: {
-        feature: {
-            dataView: { show: true, readOnly: false },
-            restore: { show: true },
-            saveAsImage: { show: true }
-        }
-    },
     legend: {
-        data: ['人均癌症支出', '人均GDP', '癌症负担指数', "医疗支出个人自费比例", "公共医疗支出占政府支出比例"]
+        data: ['人均癌症支出', '人均GDP', '癌症负担指数', "医疗支出个人自费比例", "公共医疗支出占政府支出比例"],
+        bottom: 0
+
     },
     xAxis: [{
         type: 'category',
@@ -77,15 +72,18 @@ option4 = {
     series: [{
             name: '人均癌症支出',
             type: 'bar',
+            barWidth: 30,
             data: [9739, 9045.2],
         },
         {
             name: '人均GDP',
             type: 'bar',
+            barWidth: 30,
             data: [4837.39, 8123.2],
         }, {
             name: '癌症负担指数',
             type: 'bar',
+            barWidth: 30,
             yAxisIndex: 1,
             data: [0.8, 5.3]
         },

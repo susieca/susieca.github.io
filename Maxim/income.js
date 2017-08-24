@@ -226,7 +226,7 @@
          },
          controller: {
              inRange: {
-                 color: ['#0288d1']
+                 color: ['#0d47a1']
              },
              outOfRange: {
                  color: ['#444']

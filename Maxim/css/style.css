@@ -255,7 +255,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
+    font-weight: 300;
     color: #312f2b;
     line-height: 1.1em;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -267,7 +267,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -277,7 +277,7 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -359,8 +359,7 @@ h2.pagetitle {
 ============================================================ */
 
 .navbar-fixed-top .container {
-    /* Uncomment to make nav expand full width */
-    /*	width: auto; */
+    width: auto;
 }
 
 .navbar .brand {
@@ -390,12 +389,12 @@ h2.pagetitle {
 }
 
 .navbar-inner {
-    min-height: 4.75em;
+    min-height: 3em;
 }
 
 .navbar-inverse .navbar-inner {
     background-repeat: repeat;
-    background-color: #0b333f;
+    background-color: #f2f2f2;
 }
 
 .navbar-wrapper {
@@ -463,14 +462,14 @@ ul#menu-main>li>a:focus {
 
 header .logo {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 
 /* --- Header slider --- */
 
 #header-wrapper.header-slider {
-    background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
+    background: #444 url(background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -549,19 +548,20 @@ header .logo {
 }
 
 section.section {
-    padding: 100px 0 80px;
+    padding: 60px 0 48px;
 }
 
 section.section h4 {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 section.inner {
-    padding: 50px 0 50px;
+    padding: 40px 0 40px;
 }
 
 .section.orange h4,
@@ -583,7 +583,7 @@ section.spacer {
 }
 
 .spacer.green {
-    background-image: url("min-banner.jpg");
+    background-image: url('min-banner.jpg');
     background-size: cover;
 }
 
@@ -633,12 +633,17 @@ section.spacer blockquote cite {
 /* === section works === */
 
 #works h4 {
-    margin-bottom: 30px;
-    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 #portfolio {
     padding-bottom: 0;
+}
+
+section#works {
+    background-color: #f2f2f2
 }
 
 
@@ -877,6 +882,10 @@ section.spacer blockquote cite {
 
 /* === section services === */
 
+section#services {
+    background-color: #f2f2f2
+}
+
 section#services h2 {
     font-size: 22px;
     margin-bottom: 15px;
@@ -1050,6 +1059,10 @@ section#about {
 
 
 /* Contact Form */
+
+section#contact {
+    background-color: #f2f2f2
+}
 
 .validation {
     color: red;
@@ -1605,7 +1618,7 @@ i.icon-white {
 .btn-warning {
     color: #ffffff;
     text-shadow: none;
-    background-color: #ffe873;
+    background-color: #e57373;
     *background-color: #ffe873;
     background-image: none;
     border-color: none;
@@ -1631,11 +1644,19 @@ i.icon-white {
 .btn-danger {
     color: #ffffff;
     text-shadow: none;
-    background-color: #f36f36;
-    *background-color: #f36f36;
     background-image: none;
     border-color: none;
     filter: none;
+}
+
+#in {
+    color: #fff;
+    background-color: #b71c1c;
+}
+
+#mo {
+    color: #fff;
+    background-color: #0d47a1;
 }
 
 .btn-danger:hover,
