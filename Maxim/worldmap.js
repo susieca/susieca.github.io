@@ -51,8 +51,8 @@ $.getJSON("data-incidence-2012.json", function(res) {
 $.getJSON("data-mortality-2012.json", function(res) {
     option2 = {
         title: {
-            text: "Incident cases and deaths of Cancer (ASR) worldwide",
-            subtext: 'both sexes combined, number per 10,000',
+            text: "全球癌症发病率与死亡率(ASR)",
+            subtext: '包括男性和女性，单位：每千人',
             left: 'center',
             top: 'top'
         },
