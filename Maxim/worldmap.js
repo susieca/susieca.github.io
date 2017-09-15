@@ -14,7 +14,7 @@ $.getJSON("data-incidence-2012.json", function(res) {
                 var value = (params.value + '').split('.');
                 value = value[0].replace(/(\d{1,3})(?=(?:\d{3})+(?!\d))/g, '$1,') +
                     '.' + value[1];
-                return params.seriesName + '<br/>' + params.name + ' : ' + value;
+                return params.name + ' : ' + value;
             }
         },
 
