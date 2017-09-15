@@ -239,7 +239,7 @@
      option7.baseOption.timeline.data.push(timeLineData[i]);
      option7.options.push({
          title: {
-             text: timeLineData[i] + '前十癌症类型发病率与死亡率 ',
+             text: timeLineData[i] + '前十癌症类型发病率与死亡率（ASR) ',
          },
          yAxis: [{
                  data: myData[timeLineData[i]]
@@ -280,7 +280,7 @@
                  },
                  itemStyle: {
                      normal: {
-                         color: '',
+                         color: '#c29400',
                      },
                      emphasis: {
                          color: 'yellow',
@@ -313,7 +313,7 @@
                  },
                  itemStyle: {
                      normal: {
-                         color: '#01579b',
+                         color: '#005365',
                      },
                      emphasis: {
                          color: '#00b8d4',

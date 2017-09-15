@@ -3,8 +3,8 @@ $.getJSON("data-incidence-2012.json", function(res) {
     console.log(res)
     option = {
         title: {
-            text: "Incidence and Mortality of cancer (ASR)",
-            subtext: 'both sexes combined, number per 10,000',
+            text: "全球癌症发病率与死亡率(ASR)",
+            subtext: '包括男性和女性，单位：每千人',
             left: 'center',
             top: 'top'
         },
@@ -25,7 +25,7 @@ $.getJSON("data-incidence-2012.json", function(res) {
             realtime: false,
             calculable: true,
             inRange: {
-                color: ['#ffebee', "#e57373", '#b71c1c ']
+                color: ['#f8f4e5', "#d4b44c", '#ae8500']
             }
         },
         series: [{
@@ -85,7 +85,7 @@ $.getJSON("data-mortality-2012.json", function(res) {
             realtime: false,
             calculable: true,
             inRange: {
-                color: ["#e3f2fd", "#0d47a1", '#0d47a1']
+                color: ['#ffebee', "#e57373", '#b71c1c']
             }
         },
         series: [{
