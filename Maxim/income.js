@@ -143,10 +143,10 @@
          type: 'category',
          name: '癌症类型',
          data: ["肝癌", "食道癌", "肺癌", "骨髓瘤", "脑癌", "卵巢癌", "白血病", "胃癌", "舌咽癌", "结直肠癌", "肾癌", "子宫颈癌", "口腔癌", "膀胱癌", "乳腺癌", "前列腺癌", "淋巴瘤", "甲状腺癌"],
-         nameGap: 20,
+         nameGap: 3,
          nameTextStyle: {
              color: '#000',
-             fontSize: 14
+             fontSize: 13,
          },
          // max: 31,
          splitLine: {
@@ -184,10 +184,10 @@
          type: 'value',
          name: "死亡率",
          nameLocation: 'end',
-         nameGap: 20,
+         nameGap: 10,
          nameTextStyle: {
              color: '#000',
-             fontSize: 14
+             fontSize: 13
          },
          axisLine: {
              lineStyle: {
@@ -215,7 +215,7 @@
          calculable: true,
          precision: 0.1,
          text: ['圆形大小：癌症治疗支出'],
-         textGap: 30,
+         textGap: 20,
          textStyle: {
              color: '#000',
              fontSize: 14
